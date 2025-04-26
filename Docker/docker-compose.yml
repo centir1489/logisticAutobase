@@ -1,0 +1,53 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: logisticAutobase
+      POSTGRES_USER: autobase_user
+      POSTGRES_PASSWORD: ABc324gR!0
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    networks:
+      - autobase-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U autobase_user -d logisticAutobase"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  server:
+    build:
+      context: ..
+      dockerfile: Docker/Server/Dockerfile
+    environment:
+      - DB_HOST=postgres
+      - DB_NAME=logisticAutobase
+      - DB_USER=autobase_user
+      - DB_PASS=ABc324gR!0
+      - DB_PORT=5432
+      - QT_DEBUG_PLUGINS=1
+      - QT_PLUGIN_PATH=/usr/lib/x86_64-linux-gnu/qt5/plugins
+    ports:
+      - "12345:12345"
+    volumes:
+      - ./Server/config.json:/autobase/config/config.json:ro
+    networks:
+      - autobase-net
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "netstat -tuln | grep 12345 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  postgres_data:
+
+networks:
+  autobase-net:
+    driver: bridge

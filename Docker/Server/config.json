@@ -1,0 +1,14 @@
+{
+  "server": {
+    "port": 12345,
+    "log_level": "debug"
+  },
+  "database": {
+    "host": "postgres",
+    "port": 5432,
+    "database": "logisticAutobase",
+    "username": "autobase_user",
+    "password": "ABc324gR!0",
+    "connection_timeout": 5000
+  }
+}

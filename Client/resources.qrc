@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>resources/del50.png</file>
+        <file>resources/exit50.png</file>
+        <file>resources/export50.png</file>
+        <file>resources/loupe24x24.png</file>
+        <file>resources/open50.png</file>
+        <file>resources/plus50.png</file>
+        <file>resources/redact50.png</file>
+        <file>resources/redaction50.png</file>
+        <file>resources/table32.png</file>
+        <file>resources/move50.png</file>
+        <file>resources/rename50.png</file>
+        <file>resources/parcel50.png</file>
+        <file>resources/parcel100.png</file>
+        <file>resources/dice30.png</file>
+        <file>resources/allparcels32.png</file>
+
+        <file>resources/daddparcel20.png</file>
+        <file>resources/dautherization20.png</file>
+        <file>resources/dmove20.png</file>
+        <file>resources/dexport32.png</file>
+        <file>resources/dedit-20.png</file>
+        <file>resources/daddparcel50.png</file>
+        <file>resources/transportation32.png</file>
+    </qresource>
+</RCC>
+
+

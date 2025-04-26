@@ -1,0 +1,9 @@
+[user_tables]
+"table_id","user_id","table_name","departure_location","destination_location"
+"11","2","ass","fdggf","sdfdf"
+
+[parcels]
+"parcel_id","number_parcel","sender","recipient","date_dispatch","delivery_date","status_parcel","weight","table_id"
+"63","CZTP070XG3E","assa","fdfd","25-04-2025","28-04-2025","В обработке","1","11"
+"64","KOWQ687II8T","SADSDS","FGFFHGF","25-04-2025","30-04-2025","В обработке","1.25","11"
+"65","EBFR999UH2G","dfggfdf","fghgh","25-04-2025","28-04-2025","В обработке","1.57","11"
