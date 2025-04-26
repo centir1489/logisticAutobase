@@ -1,9 +1,0 @@
-/home/lendell/Документы/Университет/2 Курс/Семестр3/1. Программирование/A/autobase/build/Desktop-Debug/CMakeFiles/autobase.dir
-/home/lendell/Документы/Университет/2 Курс/Семестр3/1. Программирование/A/autobase/build/Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/lendell/Документы/Университет/2 Курс/Семестр3/1. Программирование/A/autobase/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/lendell/Документы/Университет/2 Курс/Семестр3/1. Программирование/A/autobase/build/Desktop-Debug/CMakeFiles/list_install_components.dir
-/home/lendell/Документы/Университет/2 Курс/Семестр3/1. Программирование/A/autobase/build/Desktop-Debug/CMakeFiles/install.dir
-/home/lendell/Документы/Университет/2 Курс/Семестр3/1. Программирование/A/autobase/build/Desktop-Debug/CMakeFiles/install/local.dir
-/home/lendell/Документы/Университет/2 Курс/Семестр3/1. Программирование/A/autobase/build/Desktop-Debug/CMakeFiles/install/strip.dir
-/home/lendell/Документы/Университет/2 Курс/Семестр3/1. Программирование/A/autobase/build/Desktop-Debug/CMakeFiles/autobase_autogen_timestamp_deps.dir
-/home/lendell/Документы/Университет/2 Курс/Семестр3/1. Программирование/A/autobase/build/Desktop-Debug/CMakeFiles/autobase_autogen.dir
